@@ -1,0 +1,42 @@
+{
+    "name": "vtree",
+    "version": "0.1.0",
+    "description": "A tree plugin created as vue component",
+    "main": "./dist/vtree.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lsbrucelincoln/vtree.git"
+    },
+    "devDependencies": {
+        "babel-core": "^6.9.0",
+        "babel-loader": "^6.2.4",
+        "babel-plugin-transform-runtime": "^6.9.0",
+        "babel-preset-es2015": "^6.9.0",
+        "babel-runtime": "^6.9.0",
+        "css-loader": "^0.23.1",
+        "es6-promise": "^3.2.1",
+        "eslint": "^2.10.2",
+        "style-loader": "^0.13.1",
+        "less": "^2.7.1",
+        "less-loader": "^2.2.3",
+        "vue": "^2.0.1",
+        "vue-hot-reload-api": "^1.3.2",
+        "vue-html-loader": "^1.2.2",
+        "vue-loader": "^8.4.0",
+        "vue-style-loader": "^1.0.0",
+        "vue-textarea": "^0.1.0",
+        "webpack": "^1.13.1"
+    },
+    "keywords": [
+        "vue",
+        "tree"
+    ],
+    "author": {
+        "name": "lsbrucelincoln",
+        "email": "276505128@qq.com"
+    },
+    "license": "MIT"
+}
