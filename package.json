@@ -1,5 +1,5 @@
 {
-    "name": "vtree",
+    "name": "VueTree",
     "version": "0.1.0",
     "description": "A tree plugin created as vue component",
     "main": "./dist/vtree.js",
@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/lsbrucelincoln/vtree.git"
+        "url": "https://github.com/lsbrucelincoln/VueTree.git"
     },
     "devDependencies": {
         "babel-core": "^6.9.0",
