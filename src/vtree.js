@@ -1,9 +1,12 @@
 import VueTree from '../vtree.vue'
-window.VueTree = VueTree
-var VueTree = {
-  vtree: component,
-  install: function(Vue) {
-    Vue.component('vtree', vtree)
-  }
+window.VueTree=VueTree
+const install = function(Vue) {
+    if (install.installed) return;
+    Vue.component('vtree', VueTree)
 }
-module.exports = VueTree
+if (typeof window !== 'undefined' && window.Vue) {
+    install(window.Vue);
+};
+module.exports = {
+    install
+}

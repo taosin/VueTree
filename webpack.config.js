@@ -4,7 +4,7 @@ var path = require('path');
 
 var paths = {
     src: './src/',
-    dist: './dist/'
+    dist: './'
 };
 
 module.exports = {
@@ -17,7 +17,7 @@ module.exports = {
         filename: '[name].js'
     },
     resolve: {
-        extensions: ['', '.js', '.vue', '.styl'],
+        extensions: ['', '.js', '.vue', '.less'],
         alias: {
             'src': path.resolve(__dirname, '')
         }

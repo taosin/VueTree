@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+</head>
+<body>
+<div id="app">
+	<tree :node="node"></tree>
+</div>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.js"></script>
+<script type="text/javascript" charset="utf-8" src="../vtree.js"></script>
+ <script>
+new Vue({
+  el: '#app',
+  components:{
+  	tree:VueTree
+  },
+  data: {
+    message: 'Hello Vue.js!',
+    node:{"name":"Root","children":[{"name":"A","children":[{"name":"A1","children":[]},{"name":"A2","children":[]}]},{"name":"B","children":[{"name":"B1","children":[]},{"name":"B2","children":[]}]},{"name":"C","children":[{"name":"C1","children":[]},{"name":"C2","children":[]}]}]}
+  }
+})
+ </script>
+</body>
+</html>

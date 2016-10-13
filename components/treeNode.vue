@@ -3,7 +3,7 @@
 <template>
     <li draggable="true" @dragstart.stop="handleDragStart($event)" @dragenter="handleDragEnter" @dragleave="handleDragLeave" @dragover.prevent="handleDragOver" @drop.stop="handleDrop($event)" @dragend.prevent="handleDragEnd">
         <span @mouseenter="showOprators" @mouseleave="hideOprators">
-                <a @click="toggle">{{node.name}}</a>
+                <a>{{node.name}}</a>
                 <small v-if="show_oprators">
                     <a @click="editNode" href="#">edit</a> | <a @click="removeNode" href="#">remove</a> | <a @click="addNode" href="#">add</a>
                 </small>
